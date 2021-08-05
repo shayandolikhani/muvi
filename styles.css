@@ -1,0 +1,92 @@
+.card {
+    background-color: #F7EBE8;
+}
+
+.card-text {
+    font-size: small;
+}
+
+#searchtext {
+    width: 70%;
+}
+
+#navbar {
+    background-color: #E85F5C;
+    
+}
+
+.navbar-brand {
+    margin-left: 2%;
+    font-size: larger;
+    font-style: italic;
+}
+
+.nav-item {
+    margin-left: 2%;
+    font-size: medium;
+}
+
+a {
+    color: #F7FFF6;
+}
+
+.nav-link {
+    color: #F7FFF6;
+}
+
+.card {
+    border-color: #393E41;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#goodrating {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: green;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#badrating {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: red;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.aboutlink {
+    color: black;
+}
+
+.aboutlink:hover {
+    color: #E85F5C;
+}
+
+
+#loadbutton:hover {
+    background-color: #E85F5C;
+}
+
+#lastpage {
+    text-align: center;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    display: inline;
+    padding-left: 5px;
+}
+
+a:hover, .nav-link:hover {
+    color: #0E131F;
+}
+
+#searchbutton:hover {
+    color: #0E131F;
+    background-color: #F1C40F;
+}

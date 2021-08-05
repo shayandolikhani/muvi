@@ -15,15 +15,15 @@
 <body>
     <header id="navbar">
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">MUVI</a>
+            <a class="navbar-brand" href="index.html">MUVI</a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                 </ul>
             </div>
@@ -32,32 +32,24 @@
     <br><br>
     <main>
         <div class="container">
-            <p>MUVI lets you search TMDb for movies and tv shows. Simply enter your search query
-                and click search.
+            <p>MUVI uses the <a class = "aboutlink" href = "https://www.themoviedb.org/" target="_blank">TMDb</a> API for data and <a class="aboutlink"
+                    href="https://github.com/cavestri/themoviedb-javascript-library" target="_blank">The Movie DB (javascript
+                    library)</a> for contacting the API. This product uses the TMDb API but is not endorsed or certified
+                by TMDb.
+                <img id="logo"
+                    src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg">
             </p>
-            <div class="input-group mb-3">
 
-                <input type="text" class="form-control" id="searchtext" placeholder="Search" aria-label="Search Bar">
-                <button class="btn btn-outline-secondary" id="searchbutton" type="button">Search</button>
-                <select class="form-select" id="categoryselect" size="1" aria-label="Default select example">
-                    <option value="1">Movies</option>
-                    <option value="2">TV Shows</option>
-                </select>
-            </div>
         </div>
-        <br>
-        <div class="container" id="results"></div>
     </main>
 
 
-    <script src="themoviedb-javascript-library-master/themoviedb-javascript-library-master/themoviedb.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    <script type="module" src="render.js"></script>
 </body>
 
 </html>
