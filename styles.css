@@ -45,6 +45,7 @@ a {
 #goodrating {
     padding-top: 5px;
     padding-left: 10px;
+    padding-bottom: 5px;
     color: green;
     font-size: 11px;
     font-style: italic;
@@ -53,6 +54,7 @@ a {
 #badrating {
     padding-top: 5px;
     padding-left: 10px;
+    padding-bottom: 5px;
     color: red;
     font-size: 11px;
     font-style: italic;
