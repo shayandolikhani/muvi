@@ -114,8 +114,8 @@ function renderTvList(data) {
   let totalpages = result.total_pages;
  
   if (result.total_results == 0) {
-    let message = `<p>Sorry, no TV Shows were found matching your query.</p>`;
-    $(message).hide().appendTo("#results").fadeIn(500);
+    let message2 = `<p>Sorry, no TV Shows were found matching your query.</p>`;
+    $(message2).hide().appendTo("#results").fadeIn(500);
     return;
   }
 
